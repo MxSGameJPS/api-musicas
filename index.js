@@ -1,7 +1,10 @@
 const express = require('express');
+const cors = require('cors'); // Importando o pacote CORS
 const app = express();
 const port = process.env.PORT || 3000;
 
+// Habilitar CORS para todas as rotas
+app.use(cors());
 app.use(express.json());
 
 // Importando a lista de músicas do arquivo musicas.js
@@ -53,6 +56,11 @@ app.delete('/musicas/:id', (req, res) => {
   const id = parseInt(req.params.id);
   musicas = musicas.filter(m => m.id !== id);
   res.status(204).send();
+});
+
+// Rota raiz para verificar se a API está funcionando
+app.get('/', (req, res) => {
+  res.json({ mensagem: 'API de músicas funcionando! Acesse /musicas para ver a lista completa.' });
 });
 
 app.listen(port, () => {
