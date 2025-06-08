@@ -7,6 +7,10 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+// Configurar o Express para servir arquivos estáticos da pasta raiz
+// Isso é necessário para que os arquivos MP3 sejam acessíveis
+app.use(express.static('.'));
+
 // Importando a lista de músicas do arquivo musicas.js
 let musicas = require('./musicas');
 
@@ -44,6 +48,7 @@ app.put('/musicas/:id', (req, res) => {
   const id = parseInt(req.params.id);
   const index = musicas.findIndex(m => m.id === id);
   if (index !== -1) {
+    // Preserva o id original e substitui os outros campos
     musicas[index] = { id, ...req.body };
     res.json(musicas[index]);
   } else {
@@ -60,7 +65,16 @@ app.delete('/musicas/:id', (req, res) => {
 
 // Rota raiz para verificar se a API está funcionando
 app.get('/', (req, res) => {
-  res.json({ mensagem: 'API de músicas funcionando! Acesse /musicas para ver a lista completa.' });
+  res.json({ 
+    mensagem: 'API de músicas funcionando! Acesse /musicas para ver a lista completa.',
+    endpoints: {
+      "/musicas": "GET - Lista todas as músicas",
+      "/musicas/:id": "GET - Obtém uma música específica por ID",
+      "/musicas": "POST - Adiciona uma nova música",
+      "/musicas/:id": "PUT - Atualiza uma música existente",
+      "/musicas/:id": "DELETE - Remove uma música"
+    }
+  });
 });
 
 app.listen(port, () => {
