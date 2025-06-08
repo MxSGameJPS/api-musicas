@@ -1,73 +1,73 @@
 const musicas = [
   {
     "id": 1,
-    "titulo": "lofi hip hop radio – beats to relax/study to",
-    "artista": "Lofi Girl",
-    "estilo": "Lo‑fi",
-    "url": "https://www.youtube.com/watch?v=jfKfPfyJRdk"
+    "titulo": "Só Pagodes e Sambas Top 2025 🎤 Ferrugem, Dilsinho, Thiaguinho, Ludmilla, Iza e Mais",
+    "artista": "Só Pagodes e Sambas",
+    "estilo": "Pagode / Samba",
+    "url": "https://www.youtube.com/watch?v=NJjIuBjDKO8"
   },
   {
     "id": 2,
-    "titulo": "Deep Focus – Music For Studying",
-    "artista": "Deep Focus",
-    "estilo": "Ambient",
-    "url": "https://www.youtube.com/watch?v=hIH1joP9_FU"
+    "titulo": "Melhores Musicas 2025 🎼 Sertanejo 2025 Mais Tocadas 🎼 As Melhores Do Sertanejo Universitário",
+    "artista": "Sertanejo Universitário",
+    "estilo": "Sertanejo",
+    "url": "https://www.youtube.com/watch?v=bBZl9aw_3pE"
   },
   {
     "id": 3,
-    "titulo": "100 Hours of Classical Music for Studying – Interlude",
-    "artista": "1 Hour Classical Music",
-    "estilo": "Clássica",
-    "url": "https://www.youtube.com/watch?list=PLeCgNh_ukabrKFL0pnt72vsje5PGb16sI"
+    "titulo": "Metallica, Queen, Nirvana, Guns N Roses, Bon Jovi, ACDC 🔥 Best Classic Rock Songs 70s 80s 90s",
+    "artista": "Various Artists",
+    "estilo": "Rock Clássico",
+    "url": "https://www.youtube.com/watch?v=aeBmia24CQQ"
   },
   {
     "id": 4,
-    "titulo": "Study Music Alpha Waves",
-    "artista": "Yellow Brick Cinema",
-    "estilo": "Ambient / Binaural",
-    "url": "https://www.youtube.com/watch?v=WPni755-Krg"
+    "titulo": "As Mais Tocadas Hungria As Melhores Hungria Hip Hop",
+    "artista": "Humgria Hip Hop",
+    "estilo": "Hip Hop",
+    "url": "https://www.youtube.com/watch?v=WVZOU0sf1gQ"
   },
   {
     "id": 5,
-    "titulo": "Música relaxante instrumental – Concentração",
-    "artista": "Instrumental Relax",
-    "estilo": "Instrumental",
-    "url": "https://www.youtube.com/watch?v=acS7_Utso14"
+    "titulo": "Músicas MPB Para Relaxar - As Melhores MPB de Todos os Tempos - Maria Gadú, Kell Smith, Sandy",
+    "artista": "MPB Relax",
+    "estilo": "MPB",
+    "url": "https://www.youtube.com/watch?v=HmHKswwQsRE"
   },
   {
     "id": 6,
-    "titulo": "Ambient Music For Studying, Concentration, Work And Meditation",
-    "artista": "Ambient Channel",
-    "estilo": "Ambient",
-    "url": "https://www.youtube.com/watch?v=_bLX5WfDQfM"
+    "titulo": "Rock Nacional - Grandes Hits para ouvir em 2024 ",
+    "artista": "Rock Nacional",
+    "estilo": "Rock Nacional",
+    "url": "https://www.youtube.com/watch?v=4LrudHsth54"
   },
   {
     "id": 7,
-    "titulo": "Dreamlight Brain.fm Music for Maximum Focus",
-    "artista": "Brain.fm",
+    "titulo": "Música de trabalho produtiva — Deep Focus Mix para programação e codificação",
+    "artista": "Focus Music",
     "estilo": "Eletrônica / Focus Session",
-    "url": "https://www.youtube.com/watch?v=UpPmnnJcy6A"
+    "url": "https://www.youtube.com/watch?v=C55zjPlqdYw"
   },
   {
     "id": 8,
-    "titulo": "12 Hours of Ambient Study Music to Concentrate #397",
-    "artista": "Deep Focus Music",
-    "estilo": "Ambiente",
-    "url": "https://www.youtube.com/watch?v=MTpCQTx0kqc"
+    "titulo": "MÚSICA ELETRÔNICA 2024 🔥 AS MÚSICAS ELETRÔNICAS MAIS TOCADAS 🔥 Alok, Vintage Culture & David Guetta",
+    "artista": "Various Artists",
+    "estilo": "Eletrônica",
+    "url": "https://www.youtube.com/watch?v=kIfDEwUp4fw"
   },
   {
     "id": 9,
-    "titulo": "Interstellar – Hans Zimmer (Instrumental Focus)",
-    "artista": "Hans Zimmer",
-    "estilo": "Trilha Instrumental",
-    "url": "https://www.youtube.com/watch?v=UDVtMYqUAyw"
+    "titulo": "Sertanejo Universitário de 2010 a 2019 | Playlist com as melhores ",
+    "artista": "Sertanejo Universitário",
+    "estilo": "Sertanejo Universitário",
+    "url": "https://www.youtube.com/watch?v=I9ffMbKM4xA"
   },
   {
     "id": 10,
-    "titulo": "Nature Sounds: Rain + Forest",
-    "artista": "Relaxing Nature Sounds",
-    "estilo": "Natureza",
-    "url": "https://www.youtube.com/watch?v=OdIJ2x3nxzQ"
+    "titulo": "FUNK DO TIK TOK 2025 - MÚSICAS DO TIKTOK 2025 - FUNK ATUALIZADO - OS MELHORES MAIS TOCADOS",
+    "artista": "Funk TikTok",
+    "estilo": "Funk",
+    "url": "https://www.youtube.com/watch?v=Xwxusv-Dw3g"
   },
   {
     "id": 100,
